@@ -1,0 +1,15 @@
+1. What is the probability of drawing a red card (hearts or diamonds)?
+A: Total cards: 52, red: 26
+    P(red) = 26/52 = 1/2
+
+2. Given that you have drawn a red card, what is the probability that the card is a heart?
+A: Total red cards: 26, hearts: 13
+    P(heart | red) = 13/26 = 1/2
+
+3. Given that the drawn card is a face card (Jack, Queen, King), what is the probability that it is a diamond?
+A: Total face cards: 12, diamond face cards: 3
+    P(diamond | face) = 3/12 = 1/4
+
+4. Given that the card drawn is a face card, calculate the probability that it is also a spade or a queen.
+A: Spades: 3, queens: 4, overlapping: 1 queen of spades. So, total favourable = 3+4-1 = 6, total face cards = 12
+    P(spade or queen | face) = 6/12 = 1/2
